@@ -1,13 +1,125 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./src/output.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./src/output.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+  <title>Samuel Fletcher Website</title>
 </head>
+
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <nav class="font-semibold text-center sidenav font-cormorant">
+    <ul class="text-left">
+      <li><a class="block" href="#top">About</a></li>
+      <li><a class="block" href="#work">Work</a></li>
+      <li><a class="block" href="#projects">Projects</a></li>
+      <li><a class="block" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main class="pt-10 pr-64">
+    <section id="about">
+      <h1 class="text-3xl font-light underline font-raleway">
+        About
+      </h1>
+      <div class="py-8">
+        <p class=" text-7xl font-cormorant">Hello, I'm Samuel Fletcher</p>
+        <p class="text-7xl font-cormorant">A web developer with a focus on digital accessibility!</p>
+        <p class="pt-6 text-3xl font-raleway">Develop with frontend frameworks like React.js, Angular, and HTML and CSS
+          with JavaScript/Typescript. Provide detailed accessibility audits for websites and eLearning
+          modules. Leverage automation frameworks like Cypress.io and WebdriverIO, to provide a robust automated testing
+          for browser and mobile applications.</p>
+      </div>
+    </section>
+    <section id="work" class="pt-8">
+      <h1 class="text-3xl font-light underline font-raleway">
+        Work
+      </h1>
+      <div class="py-8">
+        <div class="p-4 border border-black">
+          <p class="text-6xl font-cormorant">QA Reviewer - eLearningDOC</p>
+          <p class="text-2xl font-cormorant">July 2024 - Current</p>
+        </div>
+        <div>
+          <p class="pt-10 pl-4 text-2xl font-raleway">Provided reviews for organizations like the National Rural Health
+            Association and the Florida Apartment Association </p>
+          <ul class="pt-10 pl-10 text-xl list-disc font-raleway">
+            <li>Review eLearning content to ensure compliance with WCAG standards</li>
+            <li>Strong technical proficiency with LMS platforms, including system administration skills</li>
+            <li>Evaluate eLearning content for design consistency and clarity</li>
+            <li>Perform basic copyediting for grammar and spelling errors</li>
+          </ul>
+        </div>
+      </div>
+      <div class="py-8">
+        <div class="p-4 border border-black">
+          <p class="text-6xl font-cormorant">Web Accessibility Assistant - Toronto Metropolitan University</p>
+          <p class="text-2xl font-cormorant">May 2022 - May 2023</p>
+        </div>
+        <div>
+          <p class="pt-10 pl-4 text-2xl font-raleway">Provided reviews for organizations like the National Rural Health
+            Association and the Florida Apartment Association </p>
+          <ul class="pt-10 pl-10 text-xl list-disc font-raleway">
+            <li>Ensured website compliance with level AA standards through in-depth research and testing of ARIA,
+              MathML,
+              and assistive technologies</li>
+            <li>Conducted comprehensive audits for over 100 AEM based websites to guarantee WCAG 2.0 compliance and
+              enhance inclusivity</li>
+            <li>Optimized internal site accessibility audits by creating and managing a productive chrome extension</li>
+            <li>Utilized ticket tracking systems like Jira for efficient task management</li>
+          </ul>
+        </div>
+      </div>
+      <div class="py-8">
+        <div class="p-4 border border-black">
+          <p class="text-6xl font-cormorant">Technical Assistant - Toronto Metropolitan University</p>
+          <p class="text-2xl font-cormorant">May 2021 - May 2022</p>
+        </div>
+        <div>
+          <p class="pt-10 pl-4 text-2xl font-raleway">Created landing pages and course modules for Toronto Metropolitan
+            University's Level Up program.</p>
+          <ul class="pt-10 pl-10 text-xl list-disc font-raleway">
+            <li>Designed web pages for the Level Up program using D2L and Thinkific LMS </li>
+            <li>Authored tutorials for upcoming students and staff members</li>
+            <li>Provided troubleshooting for complex issues, and delivered high quality technical support to students
+              and
+              faculty</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="pt-8">
+      <h1 class="text-3xl font-light underline font-raleway">
+        Projects
+      </h1>
+      <div class="py-8">
+        <div class="p-4 border border-black">
+          <div class="text-6xl font-cormorant">Bookapp<p class="inline-flex ml-4 text-3xl">Personal library management</p></div>
+          <p class="text-2xl font-cormorant"><a class="text-blue-700 underline" href="https://bookapp-steel.vercel.app/"
+              target="_blank">Visit Bookapp!
+              (opens in new tab)</a> - <a class="text-blue-700 underline"" href=" https://github.com/SamuelFlet/bookapp"
+              target="_blank">The code can be
+              found here (opens in new tab)</a></p>
+        </div>
+        <div class="flex p-8">
+            <img class="size-2/4" src="src/bookapp.png" alt="homepage of bookapp"/>
+            <ul class="pl-10 text-xl list-disc font-raleway">
+              <li>CRUD application that allows users to input, delete, and update books in personal library</li>
+              <li>System allows users to easily keep track of their book collection</li>
+              <li>Features user interface built in react allowing for easy access to information and items</li>
+            </ul>
+        </div>
+    </section>
+  </main>
 </body>
+
 </html>

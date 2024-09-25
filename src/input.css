@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 3rem;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #16171b;
+}
+
+.sidenav li {
+  padding-top: 10px;
+}
+
+.sidenav ul {
+  margin-left: 50%;
+}
+
+.sidenav a:hover {
+  color: #9ca3af;
+}
+
+main {
+  color: #16171b;
+  margin-left: 25%; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
